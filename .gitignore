@@ -1,0 +1,71 @@
+# Ce fichier .gitignore doit être placé à la racine de votre répertoire de projet Unity
+#
+# Obtenez les dernières informations sur https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/ [ Ll ] ibrary /
+/ [ Tt ] emp /
+/ [ Oo ] bj /
+/ [ Bb ] uild /
+/ [ Bb ] uilds /
+/ [ Ll ] ogs /
+/ [ Uu ] ser [ Ss ] ettings /
+
+# MemoryCaptures peut avoir une taille excessive.
+# Ils peuvent également contenir des données extrêmement sensibles
+/ [ Mm ] emoryCaptures /
+
+# Les métadonnées de l'élément ne doivent être ignorées que lorsque l'élément correspondant est également ignoré
+! / [ Aa ] ssets / ** / * .meta
+
+# Décommentez cette ligne si vous souhaitez ignorer le plugin des outils du magasin d'actifs
+# / [Aa] ssets / AssetStoreTools *
+
+# Plugin Jetbrains Rider généré automatiquement
+/ [ Aa ] ssets / Plugins / Editor / JetBrains *
+
+# Répertoire de cache Visual Studio
+.vs /
+
+# Répertoire de cache Gradle
+.gradle /
+
+# Solution VS / MD / Consulo et fichiers de projet générés automatiquement
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+* .user
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+# Fichiers méta générés par Unity3D
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+# Fichier généré par Unity3D sur les rapports de plantage
+sysinfo.txt
+
+# Construit
+* .apk
+* .aab
+* .unitypackage
+
+# Fichier généré par Crashlytics
+crashlytics-build.properties
+
+# Adressables emballés
+/ [ Aa ] ssets / [ Aa ] dressable [ Aa ] ssets [ Dd ] ata / * / * .bin *
+
+# Actifs Android temporaires générés automatiquement
+/ [ Aa ] ssets / [ Ss ] treamingAssets / aa.meta
+/ [ Aa ] ssets / [ Ss ] treamingAssets / aa / *
